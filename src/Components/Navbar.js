@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import {FaBars} from 'react-icons/fa'
-
+import './NavbarStyles.css'
 function NavBar(){
     return(
         <div className ='header'>
@@ -23,7 +23,7 @@ function NavBar(){
             <div className='hamburger'>
                 <FaBars />
             </div>
-            <p>this is navbar</p>
+            
         </div>
     )
 }
