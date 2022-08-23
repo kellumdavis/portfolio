@@ -2,9 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #F9FBF2;
 }
 
-
+h1,p,a{
+  color:#F9FBF2;
+}
 
 body {
   margin: 0;
@@ -13,6 +16,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:#0E1C36;
 }
 
 ul{

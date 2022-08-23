@@ -13,7 +13,7 @@ function NavBar(){
     return(
         <div className ='header'>
             <Link to='/'><h1>KD</h1></Link>
-            <ul className='nav-menu'>
+            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li>
                     <Link to='/'>Home</Link>
                 </li>
