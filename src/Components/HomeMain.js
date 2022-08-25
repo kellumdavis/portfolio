@@ -6,13 +6,13 @@ import heroReelVideo from '../assets/heroReel.mp4'
 function HomeMain(){
     return(
         <div className='hero'>
+            <div className="about">
+                <h1>Kellum Davis</h1>
+                <p>Software Engineer / Actor / Creator</p>
+            </div>
            <video autoPlay loop muted id='video'>
             <source src={heroReelVideo} type='video/mp4'/>
            </video>
-        <div className="about">
-            <h1>Kellum Davis</h1>
-            <p>Software Engineer Actor Creator</p>
-        </div>
         </div>
     )
 }

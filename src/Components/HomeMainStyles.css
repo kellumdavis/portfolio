@@ -1,0 +1,56 @@
+.hero{
+    display: flex;
+    width:100%;
+    justify-content:space-between;
+    /* background-color: black; */
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding:3rem;
+    width:50%;
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+.about h1{
+font-size: 5rem;
+}
+
+video{
+    width:100%;
+    background-color: rgb(240, 248, 255, .9) ;
+    animation-name: fadeIn;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+@media screen and (max-width:1240px){
+    video{
+        width:70%;
+    }
+}
+
+@keyframes shrink {
+    0% {width:100%;
+    }
+    100%{width:50%;}
+}
+
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+  
