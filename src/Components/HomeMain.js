@@ -13,6 +13,7 @@ function HomeMain(){
             <div className="about animate__fadeInLeft">
                 <h1>Kellum Davis</h1>
                 <p>Software Engineer / Actor / Creator</p>
+                {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyvtoM3n1i82Xd3pEZjtOOTtnDdkgNr8jcBdHNMSM56g&s"></img> */}
             </div>   
            <video autoPlay loop muted id='video' className="animate__fadeInLeft">
             <source src={heroReelVideo} type='video/mp4'/>
