@@ -5,7 +5,7 @@ import "./TechBox.css"
 
 function TechBox({title, icon}){
     return(
-        <div>
+        <div className="techInline">
             <span>{icon}</span>
             <h3>{title}</h3>
             

@@ -1,0 +1,27 @@
+.techTotal{
+    background-color: black;
+    padding:5%;
+}
+.techstack{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5%;
+}
+.techstack h2{
+    margin:  5px;
+    border-bottom: 5px solid #f0f8ff;
+    border-bottom-width: 125%;
+    border-bottom-left-radius: 10px;
+    padding: 0 5%;
+}
+.techStackTitle{
+    display:flex;
+    justify-content: center;
+}
+
+.techStackTitle h1{
+    border-bottom: 5px solid #f0f8ff;
+    border-bottom-width: 125%;
+    border-bottom-left-radius: 10px;
+    padding: 0 5%;
+}
