@@ -11,8 +11,8 @@ function HomeMain(){
     return(
         <div className='hero'>
             <div className="about animate__fadeInLeft">
-                <h1>Kellum Davis</h1>
-                <p>Software Engineer / Actor / Creator</p>
+                <h1><strong>K</strong>ellum <strong>D</strong>avis</h1>
+                <p>/ Front-end Developer / Software Engineer / </p>
                 {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyvtoM3n1i82Xd3pEZjtOOTtnDdkgNr8jcBdHNMSM56g&s"></img> */}
             </div>   
            <video autoPlay loop muted id='video' className="animate__fadeInLeft">

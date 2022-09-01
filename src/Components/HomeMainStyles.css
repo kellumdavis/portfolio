@@ -15,6 +15,7 @@
     flex-direction: column;
     justify-content:center;
     align-items: center;
+    text-align: center;
     padding:3rem;
     width:40%;
     opacity: 0;
@@ -25,8 +26,11 @@
     z-index: 1;
 }
 .about h1{
-font-size: 5rem;
-
+font-size: 4.5rem;
+font-style: italic;
+}
+.about strong{
+    font-size:7rem;
 }
 
 video{
@@ -35,8 +39,8 @@ video{
     animation-name: fadeIn;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    /* border: 5px solid #f0f8ff; */
     z-index: 0;
+    
 }
 
 
@@ -47,7 +51,47 @@ video{
     .about{
         width: 30%;
     }
+    .about h1{
+        font-size: 3.5rem;
+        font-style: italic;
+    }
+    .about strong{
+            font-size:5rem;
+    }
 }
+
+@media screen and (max-width:960px){
+    .hero{
+        flex-direction: column;
+    }
+    .about{
+
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        padding:3rem;
+        width:100%;
+        opacity: 0;
+        animation-name: fadeIn;
+        animation-delay: 1s;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+        z-index: 1;
+    }
+    video{
+        width:100%;
+        background-color: #f0f8ff ;
+        animation-name: fadeIn;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+        background-color: rgba(0,0,0,.5);
+        z-index: 0;
+        
+    }
+}
+
 
 @keyframes shrink {
     0% {width:100%;
