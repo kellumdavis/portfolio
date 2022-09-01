@@ -1,0 +1,25 @@
+.projectContainer{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding:5%;
+}
+.projectTitle{
+    display:flex;
+    justify-content: center;
+}
+.projectTitle h1{
+    border-bottom: 5px solid #f0f8ff;
+    border-bottom-width: 125%;
+    border-bottom-left-radius: 10px;
+    padding: 0 5%;
+    margin-bottom: 5%;
+}
+.projects ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* margin: 10px; */
+}

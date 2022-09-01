@@ -27,7 +27,7 @@
 }
 .about h1{
 font-size: 4.5rem;
-font-style: italic;
+/* font-style: italic; */
 }
 .about strong{
     font-size:7rem;
@@ -53,7 +53,7 @@ video{
     }
     .about h1{
         font-size: 3.5rem;
-        font-style: italic;
+        
     }
     .about strong{
             font-size:5rem;
