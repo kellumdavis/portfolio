@@ -1,9 +1,8 @@
 .projectContainer{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     padding:5%;
+    margin-bottom: 10%;
+   
+  
 }
 .projectTitle{
     display:flex;
@@ -21,5 +20,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* margin: 10px; */
+    
 }

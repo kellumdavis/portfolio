@@ -18,7 +18,7 @@ function ProjectCard({image, alt, prjName, prjSum, href }){
     return(
         <div>
             <a target="blank" href={href}>
-            <Card sx={{ maxWidth: 300, minWidth: 300, margin: '10px' }}  onMouseEnter={() => setIsShown(true)}
+            <Card sx={{ maxWidth: 300, minWidth: 300, margin: '10px', padding: '10px'}}  onMouseEnter={() => setIsShown(true)}
         onMouseLeave={() => setIsShown(false)}>
       <CardActionArea>
         <CardMedia
@@ -29,14 +29,14 @@ function ProjectCard({image, alt, prjName, prjSum, href }){
           style={{objectPosition: 'top'}}
           
           
-        />
+        /> 
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" color="#0e1c36">
             {prjName}
           </Typography>
           {isShown && (
         
-          <Typography variant="body2" color="#0e1c36">
+          <Typography variant="body2" color="#0e1c36" paddingBottom='0' marginBottom='0'>
             {prjSum}
           </Typography>
           )}

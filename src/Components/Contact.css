@@ -1,0 +1,98 @@
+.contactForm{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background: black;
+    padding:5%;
+}
+.contactTitle{
+    display:flex;
+    justify-content: center;
+}
+.contactTitle h1{
+    border-bottom: 5px solid #f0f8ff;
+    border-bottom-width: 125%;
+    border-bottom-left-radius: 10px;
+    padding: 0 5%;
+    margin-bottom: 5%;
+}
+.contactForm form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    
+}
+input, textarea{
+    color: #0e1c36;
+    margin-bottom:5px;
+}
+.submitEmail{
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: null;
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+}
+.btn{
+    color: #0e1c36;
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+.emailConfirm{
+    text-align: center;
+    margin:20px;
+    animation-name: bam;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.btn:hover{
+    cursor: pointer;
+    z-index:1;
+    border-radius: null;
+    animation-name: grow;
+    animation-duration: 1s;
+    background: null;
+    animation-fill-mode: forwards;
+}
+.submitEmail:hover{
+    cursor: pointer;
+    z-index:1;
+    border-radius: null;
+    animation-name: grow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes grow {
+    0% {border-radius: 5px;
+        background: null;
+        color: null;
+    }
+    100%{border-radius: 0;
+        background: #0e1c36;
+    color:#f0f8ff}
+}
+
+@keyframes bam {
+    0% {opacity: 0
+        
+    }
+    50%{
+        opacity: .5
+    }
+    100%{
+        opacity: 1
+    }
+}
