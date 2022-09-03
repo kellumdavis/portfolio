@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
+import resume from '../assets/Resume.pdf'
 
 export const Contact = () => {
   
@@ -42,7 +43,9 @@ export const Contact = () => {
       </div>
       <div className="buttons">
       <button className="btn" onClick={() => setIsShown(true)} onDoubleClick={() => setIsShown(false)} >E-mail</button>
+      <a href={resume} download='KellumDavisResume' target='_blank'>
       <button className="btn">Résumé</button>
+      </a>
       </div>
       {isShown && (
       <form ref={form} onSubmit={sendEmail}>
