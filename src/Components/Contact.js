@@ -16,19 +16,16 @@ export const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-
-
-    emailjs
-      .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+    emailjs.sendForm(
+        "service_ww8ec59",
+        "template_es8blob",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "909NKVUG8V9irCmon"
       )
       .then(
         (result) => {
           console.log(result.text);
+          handleClick();
         },
         (error) => {
           console.log(error.text);
@@ -42,9 +39,9 @@ export const Contact = () => {
         <h1>Contact</h1>
       </div>
       <div className="buttons">
-      <button className="btn" onClick={() => setIsShown(true)} onDoubleClick={() => setIsShown(false)} >E-mail</button>
-      <a href={resume} download='KellumDavisResume' target='_blank'>
-      <button className="btn">Résumé</button>
+      <button type="button" className="btn" onClick={() => setIsShown(true)} onDoubleClick={() => setIsShown(false)} >E-mail</button>
+      <a href={resume} download='KellumDavisResume' target='_blank' rel="noreferrer">
+      <button type="button" className="btn">Résumé</button>
       </a>
       </div>
       {isShown && (
@@ -55,7 +52,7 @@ export const Contact = () => {
         <input type="email" name="user_email" />
         <label>Message</label>
         <textarea name="message" />
-        <input onClick={handleClick} className="submitEmail" type="submit" value="Send" />
+        <input className="submitEmail" type="submit" value="Send" />
       </form>
       )}
   {isSeen && (

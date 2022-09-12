@@ -16,6 +16,7 @@ function ProjectCard({image, alt, prjName, prjSum, href }){
    
 
     return(
+                
         <div>
             <a target="blank" href={href}>
             <Card sx={{ maxWidth: 300, minWidth: 300, margin: '10px', padding: '10px'}}  onMouseEnter={() => setIsShown(true)}
@@ -35,8 +36,7 @@ function ProjectCard({image, alt, prjName, prjSum, href }){
             {prjName}
           </Typography>
           {isShown && (
-        
-          <Typography variant="body2" color="#0e1c36" paddingBottom='0' marginBottom='0'>
+          <Typography  variant="body2" color="#0e1c36" paddingBottom='0' marginBottom='0' >
             {prjSum}
           </Typography>
           )}
@@ -45,6 +45,7 @@ function ProjectCard({image, alt, prjName, prjSum, href }){
     </Card>
     </a>
         </div>
+          
     )
 }
 

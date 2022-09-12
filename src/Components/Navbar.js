@@ -24,7 +24,7 @@ function NavBar(){
                     <Link to='/projects'>Projects</Link>
                 </li>
                 <li>
-                    <Link to='/contact'>Contact</Link>
+                    <Link to='.contactForm'>Contact</Link>
                 </li>
             </ul>
             <div className='hamburger' onClick={handleClick}>

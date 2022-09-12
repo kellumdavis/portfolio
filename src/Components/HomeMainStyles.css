@@ -27,7 +27,7 @@
 }
 .about h1{
 font-size: 4.5rem;
-/* font-style: italic; */
+font-family: 'Dosis', sans-serif;
 }
 .about strong{
     font-size:7rem;
