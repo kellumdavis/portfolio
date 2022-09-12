@@ -1,5 +1,5 @@
 import React from "react"
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 import'./HomeMainStyles.css'
 import heroReelVideo from '../assets/heroReel.mp4'
 
@@ -9,7 +9,7 @@ function HomeMain(){
 
 
     return(
-        <div className='hero'>
+        <div id="home" className='hero'>
             <div className="about animate__fadeInLeft">
                 <h1><strong>K</strong>ellum <strong>D</strong>avis</h1>
                 <p>/ Front-end Developer / Software Engineer / </p>

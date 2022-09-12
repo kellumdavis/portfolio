@@ -34,7 +34,7 @@ export const Contact = () => {
   };
 
   return (
-    <div className="contactForm">
+    <div id="contact" className="contactForm">
       <div className="contactTitle">
         <h1>Contact</h1>
       </div>

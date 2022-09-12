@@ -6,7 +6,7 @@ import './Projects.css'
 function Projects(){
     return(
         <div className="projectContainer">
-            <div className="projectTitle">
+            <div id="projects" className="projectTitle">
             <h1>Projects</h1>
             </div>
             <div className="projects">

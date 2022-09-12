@@ -15,16 +15,16 @@ function NavBar(){
             <Link to='/'><h1>KD</h1></Link>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li>
-                    <Link to='/'>Home</Link>
+                    <a href='#home'>Home</a>
                 </li>
                 <li>
-                    <Link to='/about'>About</Link>
+                    <a href='#about'>About</a>
                 </li>
                 <li>
-                    <Link to='/projects'>Projects</Link>
+                    <a href='#projects'>Projects</a>
                 </li>
                 <li>
-                    <Link to='.contactForm'>Contact</Link>
+                    <a href='#contact'>Contact</a>
                 </li>
             </ul>
             <div className='hamburger' onClick={handleClick}>
