@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import './NavbarStyles.css'
 function NavBar(){
@@ -12,7 +12,7 @@ function NavBar(){
 
     return(
         <div className ='header'>
-            <Link to='/'><h1>KD</h1></Link>
+            <a href='#home'><h1>KD</h1></a>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li>
                     <a href='#home'>Home</a>

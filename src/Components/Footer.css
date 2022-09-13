@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+}
+.socialLinks{
+    margin: 0 5px;
+}
+.socialLinks a{
+    font-size: 1.5rem;
+    padding: 3px;
+    
+}
