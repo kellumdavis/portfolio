@@ -56,10 +56,13 @@ input, textarea{
     cursor: pointer;
     z-index:1;
     border-radius: null;
+    background: null;
     animation-name: grow;
     animation-duration: 1s;
-    background: null;
     animation-fill-mode: forwards;
+    -webkit-animation-name: grow;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
 }
 .submitEmail:hover{
     cursor: pointer;
@@ -68,16 +71,26 @@ input, textarea{
     animation-name: grow;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+    -webkit-animation-name: grow;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
 }
 
 @keyframes grow {
     0% {border-radius: 5px;
         background: null;
         color: null;
+        -webkit-border-radius: 5px;
+        -webkit-background: null;
+        -webkit-color: null;
     }
     100%{border-radius: 0;
         background: #0e1c36;
-    color:#f0f8ff}
+    color:#f0f8ff;
+    -webkit-border-radius: 0;
+    -webkit-background: #0e1c36;
+-webkit-color:#f0f8ff
+}
 }
 
 @keyframes bam {
