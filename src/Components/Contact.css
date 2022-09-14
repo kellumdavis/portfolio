@@ -1,8 +1,4 @@
 .contactForm{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     background: black;
     padding:5%;
 }
@@ -94,5 +90,11 @@ input, textarea{
     }
     100%{
         opacity: 1
+    }
+}
+
+@media screen and (max-width:960px){
+    .contactTitle h1{
+        font-size: 2rem;
     }
 }

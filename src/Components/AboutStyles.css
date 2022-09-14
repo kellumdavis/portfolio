@@ -4,5 +4,10 @@
     align-items: center;
     text-align: center;
     height:25vh;
-    
+    padding: 10px;
+}
+@media screen and (max-width:960px){
+    .aboutTag h2{
+        font-size: 20px;
+    }
 }

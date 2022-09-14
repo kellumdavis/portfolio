@@ -8,9 +8,9 @@ function About() {
     <>
         <AnimationOnScroll  animateIn="animate__fadeIn" animatePreScroll={false} duration={5}>
       <div id="about" className="aboutTag">
+        
           <h2 animateIn='animate__fadeInDown'>
-            I am a Front-End Developer/Software Engineer who enjoys creating
-            things and helping people.
+            I am a Software Engineer with a background in acting and video editing. Web Development is my newest creative venture. I love to build dynamic interactive websites and help people tell their story.
           </h2>
       </div>
         </AnimationOnScroll>

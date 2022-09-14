@@ -2,7 +2,6 @@ import TechBox from "./TechBox";
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaSass, FaNodeJs, FaPython } from "react-icons/fa";
 import {DiMongodb, DiPostgresql} from 'react-icons/di'
 import {SiDjango} from 'react-icons/si'
-import { AnimationOnScroll } from "react-animation-on-scroll";
 import './TechStack.css'
 
 

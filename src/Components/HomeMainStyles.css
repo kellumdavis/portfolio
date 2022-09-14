@@ -2,7 +2,6 @@
     display: flex;
     justify-content:space-between;
     
-    /* background-color: black; */
 }
 .hero img{
     border-radius: 50%;
@@ -88,6 +87,12 @@ video{
         animation-fill-mode: forwards;
         background-color: rgba(0,0,0,.5);
         z-index: 0;
+    }
+}
+@media screen and (max-width:400px){
+    .about h1{
+        font-size: 2.5rem;
+        
     }
 }
 

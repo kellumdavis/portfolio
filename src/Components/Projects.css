@@ -1,7 +1,7 @@
 .projectContainer{
     padding:5%;
     margin-bottom: 10%;
-   
+   position:relative;
   
 }
 .projectTitle{
@@ -21,6 +21,12 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     
+}
+
+@media screen and (max-width:960px){
+    .projectTitle h1{
+        font-size: 2rem;
+    }
 }
 
 
