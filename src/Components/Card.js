@@ -28,7 +28,7 @@ function ProjectCard({image, alt, prjName, prjSum, href }){
           height="140"
           image={image}
           alt={alt}
-          style={{objectPosition: 'top', hover:{opacity:.1}}}
+          style={{objectPosition: 'top'}}
           
           
         /> 
@@ -39,7 +39,7 @@ function ProjectCard({image, alt, prjName, prjSum, href }){
           {isShown && (
             <div className='projectInfo'>
     
-          <Typography  position='absolute' top={0} left={0} bottom={0} zIndex={3} textAlign='center' variant="body2" color="#0e1c36" paddingBottom='0' marginBottom='0' backgroundSize='cover' style={{backgroundColor: '#f0f8ff'}} >
+          <Typography  position='absolute' top={0} left={0} bottom={0} zIndex={3} textAlign='center' variant="body2" color="#0e1c36" paddingBottom='0' marginBottom='0' style={{backgroundColor: '#f0f8ff', animationName:'fadeIn', animationDuration: '.8s'}} >
             {prjSum}
           </Typography>
           

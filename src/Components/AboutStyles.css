@@ -3,11 +3,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height:25vh;
-    padding: 10px;
-    line-height: 2rem;
+    min-height:25vh;
+    padding: 20px;
+    line-height: 3rem;
 }
 @media screen and (max-width:960px){
+    .aboutTag{
+        line-height: 2rem;
+    }
     .aboutTag h2{
         font-size: 20px;
     }
