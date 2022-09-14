@@ -34,6 +34,7 @@ font-family: 'Dosis', sans-serif;
 
 video{
     width:60%;
+    max-height: 1920px;
     background-color: #f0f8ff ;
     animation-name: fadeIn;
     animation-duration: 5s;
