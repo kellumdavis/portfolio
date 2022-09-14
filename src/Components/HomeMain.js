@@ -4,6 +4,7 @@ import'./HomeMainStyles.css'
 import heroReelVideo from '../assets/heroReel.mp4'
 import heroReelMov from '../assets/heroReel.mov'
 import heroReelAvi from '../assets/heroReel.avi'
+import kellumPic from '../assets/kellum.jpeg'
 function HomeMain(){
 
 
@@ -14,7 +15,7 @@ function HomeMain(){
                 <h1><strong>K</strong>ellum <strong>D</strong>avis</h1>
                 <p>/ Front-end Developer / Software Engineer / </p>
             </div>   
-           <video autoPlay loop muted playsInline id='video' className="animate__fadeInLeft">
+           <video autoPlay loop muted playsInline poster={kellumPic} id='video' className="animate__fadeInLeft">
             <source src={heroReelAvi} type='video/avi'/>
             <source src={heroReelMov} type='video/mov'/>
             <source src={heroReelVideo} type='video/mp4'/>
