@@ -20,6 +20,10 @@
     margin-top: 3%;
     
 }
+button{
+    color:#0e1c36;
+    -webkit-color:#f0f8ff;
+}
 input, textarea{
     color: #0e1c36;
     margin-bottom:5px;
