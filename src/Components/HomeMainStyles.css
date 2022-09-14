@@ -35,7 +35,7 @@ font-family: 'Dosis', sans-serif;
 video{
     width:60%;
     background-color: #f0f8ff ;
-    object-fit: fill;
+    object-fit: cover;
     animation-name: fadeIn;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -84,6 +84,7 @@ video{
         width:100%;
         background-color: #f0f8ff ;
         animation-name: fadeIn;
+        object-fit: cover;
         animation-duration: 5s;
         animation-fill-mode: forwards;
         background-color: rgba(0,0,0,.5);
@@ -109,13 +110,16 @@ video{
     0% {
       opacity: 0;
       transform: translateX(-100%);
+      object-fit: cover;
     }
     50%{
         opacity: .5;
+        object-fit: cover;
     }
     100% {
       opacity: 1;
       transform: translateX(0%);
+      object-fit: cover;
     }
   }
   
